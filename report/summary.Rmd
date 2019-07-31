@@ -1,0 +1,39 @@
+---
+title: "Generational income effect"
+author: "Tarmo"
+date: "Sys.Date()"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Populatsioon on 1000 isendit
+Generatsioone on kokku 100
+Hajuvus näitab teoreetilist riski isenditel
+
+Eesmärk on näidata, et kui alguspunkt on juba kehvem, siis sealt on raske tagasi tulla ja kui alguspunkt on hea, isegi siis
+
+Vaatleme kolme stsenaariumi:
+
+* Populatsiooni sissetulekud muutuvad generatsiooniti normaaljaotuse järgi
+* Populatsiooni sissetulekud sõltuvad eelneva generatsiooni sissetulekust sama hajuvusega
+* Populatsiooni sissetulekud sõltuvad eelneva generatsiooni sissetulekust erineva hajuvusega
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
